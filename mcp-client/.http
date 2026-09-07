@@ -13,3 +13,12 @@ Content-Type: application/json
 {
   "message": "Call the tool to list all products and count them."
 }
+
+
+### Chat API - Get Order Count by Customer Email
+POST http://localhost:8080/api/chat
+Content-Type: application/json
+
+{
+  "message": "How many orders does john@example.com have?"
+}

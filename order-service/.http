@@ -1,0 +1,14 @@
+### Create Order
+POST http://localhost:8083/api/orders
+Content-Type: application/json
+
+{
+  "customerName": "John Doe",
+  "customerEmail": "john@example.com",
+  "items": [
+    {
+      "productId": 1,
+      "quantity": 2
+    }
+  ]
+}
