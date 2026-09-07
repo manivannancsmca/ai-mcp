@@ -1,0 +1,10 @@
+### Create Wireless Headphones Product
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "Wireless Headphones",
+  "description": "Noise-cancelling",
+  "price": 199.99,
+  "stock": 42
+}
