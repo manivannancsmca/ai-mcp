@@ -1,3 +1,28 @@
+server:
+  port: 8080
+
 spring:
   application:
     name: mcp-client
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: llama3.2
+          temperature: 0.2   # lower for more deterministic tool use
+    mcp:
+      client:
+        enabled: true
+        type: SYNC
+        request-timeout: 60s
+        streamable-http:
+          connections:
+            product-mcp-server:
+              url: http://localhost:8082
+              # endpoint defaults to /mcp
+
+logging:
+  level:
+    com.example.mcpclient: INFO
+    org.springframework.ai: DEBUG
