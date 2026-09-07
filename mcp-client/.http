@@ -5,3 +5,11 @@ Content-Type: application/json
 {
   "message": "Show me the details of product with ID 1"
 }
+
+### Chat API - Get Product Details
+POST http://localhost:8080/api/chat
+Content-Type: application/json
+
+{
+  "message": "how many products do you have ?"
+}

@@ -16,7 +16,7 @@ spring:
       client:
         enabled: true
         type: SYNC
-        request-timeout: 60s
+        request-timeout: 120s
         streamable-http:
           connections:
             product-mcp-server:
