@@ -1,0 +1,155 @@
+### Create Product 1 - Laptop Pro
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "Laptop Pro",
+  "description": "16GB RAM, 512GB SSD",
+  "price": 1299.99,
+  "stock": 15
+}
+
+###
+
+### Create Product 2 - Mechanical Keyboard
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "Mechanical Keyboard",
+  "description": "RGB Mechanical Gaming Keyboard",
+  "price": 89.99,
+  "stock": 50
+}
+
+###
+
+### Create Product 3 - Wireless Mouse
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "Wireless Mouse",
+  "description": "Ergonomic Bluetooth Mouse",
+  "price": 29.99,
+  "stock": 100
+}
+
+###
+
+### Create Product 4 - Monitor
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "27 Inch Monitor",
+  "description": "4K UHD IPS Display",
+  "price": 349.99,
+  "stock": 25
+}
+
+###
+
+### Create Product 5 - USB-C Hub
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "USB-C Hub",
+  "description": "7-in-1 USB-C Adapter",
+  "price": 49.99,
+  "stock": 75
+}
+
+###
+
+### Create Product 6 - Headphones
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "Wireless Headphones",
+  "description": "Noise Cancelling Bluetooth Headphones",
+  "price": 199.99,
+  "stock": 40
+}
+
+###
+
+### Create Product 7 - Webcam
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "HD Webcam",
+  "description": "1080p Full HD Webcam",
+  "price": 79.99,
+  "stock": 30
+}
+
+###
+
+### Create Product 8 - External SSD
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "External SSD",
+  "description": "1TB Portable USB-C SSD",
+  "price": 119.99,
+  "stock": 35
+}
+
+###
+
+### Create Product 9 - Laptop Stand
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "Laptop Stand",
+  "description": "Adjustable Aluminum Laptop Stand",
+  "price": 39.99,
+  "stock": 60
+}
+
+###
+
+### Create Product 10 - Bluetooth Speaker
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "Bluetooth Speaker",
+  "description": "Portable Waterproof Bluetooth Speaker",
+  "price": 69.99,
+  "stock": 45
+}
+
+###
+
+### Create Product 11 - Gaming Chair
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "Gaming Chair",
+  "description": "Ergonomic Gaming Chair with Lumbar Support",
+  "price": 249.99,
+  "stock": 20
+}
+
+###
+
+### Get Product by ID
+GET http://localhost:8081/api/products/1
+
+###
+
+### Search Products by Name
+GET http://localhost:8081/api/products/search?name=Laptop
+
+###
+
+### Check Product Availability
+GET http://localhost:8081/api/products/1/availability
