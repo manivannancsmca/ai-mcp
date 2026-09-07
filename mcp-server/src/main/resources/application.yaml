@@ -20,6 +20,10 @@ product:
   service:
     base-url: http://localhost:8081
 
+order:
+  service:
+    base-url: http://localhost:8083
+
 logging:
   level:
     com.example.mcpserver: INFO
