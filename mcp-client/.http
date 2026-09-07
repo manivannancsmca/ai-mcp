@@ -11,5 +11,5 @@ POST http://localhost:8080/api/chat
 Content-Type: application/json
 
 {
-  "message": "how many products do you have ?"
+  "message": "Call the tool to list all products and count them."
 }
