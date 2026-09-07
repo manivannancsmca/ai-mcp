@@ -1,10 +1,7 @@
-### Create Wireless Headphones Product
-POST http://localhost:8081/api/products
+### Chat API - Get Product Details
+POST http://localhost:8080/api/chat
 Content-Type: application/json
 
 {
-  "name": "Wireless Headphones",
-  "description": "Noise-cancelling",
-  "price": 199.99,
-  "stock": 42
+  "message": "Show me the details of product with ID 1"
 }
