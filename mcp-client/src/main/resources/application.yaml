@@ -4,6 +4,7 @@ server:
 spring:
   application:
     name: mcp-client
+    
   ai:
     ollama:
       base-url: http://localhost:11434
