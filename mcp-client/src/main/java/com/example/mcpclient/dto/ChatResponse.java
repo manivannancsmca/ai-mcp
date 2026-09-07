@@ -1,5 +1,3 @@
 package com.example.mcpclient.dto;
 
-public class ChatResponse {
-
-}
+public record ChatResponse(String reply) {}
